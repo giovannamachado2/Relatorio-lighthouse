@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Put your description here.">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Sample Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
+
+    <script src="external-script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Sample Web Application</h1>
+        <img src="logo.png" alt="">
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to our sample web application. We aim to provide the best service.</p>
+        </section>
+        <section>
+            <h2>Services</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <form action="#">
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <button>Submit</button>
+                <button onclick="mudarCor()">Mudar Cor</button>
+                <script>
+                    function mudarCor() {
+                        const nameLabel = document.getElementById('nameLabel');
+                        const emailLabel = document.getElementById('emailLabel');
+                        nameLabel.style.color = 'blue';  // Altera a cor do nome para azul
+                        emailLabel.style.color = 'green';  // Altera a cor do email para verde
+
+                    }
+                        <footer>
+                            <p id="footer">&copy; 2024 Sample Web App</p>
+                        </footer>
+                          </script>
+</body>
